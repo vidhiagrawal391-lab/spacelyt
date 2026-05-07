@@ -1,6 +1,6 @@
 <?php
 
-    // Only process POST reqeusts.
+    // Only process POST requests.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
@@ -20,7 +20,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "themeholy@gmail.com";
+        $recipient = "info@spacelyt.com";
 
         // Set the email subject.
         $subject = "New contact from $subject";

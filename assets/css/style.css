@@ -9006,6 +9006,20 @@ ol.widget_recent_comments,
   /* Extra small devices */
 }
 
+.header-logo img,
+.mobile-logo img,
+.about-logo img,
+.footer-logo img {
+  max-width: 165px;
+  height: auto;
+}
+
+.footer-logo img {
+  background: var(--white-color);
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
 @media (max-width: 575px) {
   .header-logo {
     max-width: 150px;
